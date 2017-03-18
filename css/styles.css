@@ -1,16 +1,49 @@
-
-/* Global Modifier */
-* {
-font-family: 'Lato', sans-serif;
-}
-
-
-
-
 /* Body Elements */
-h1 {
-  font-size: 45px;
+body {
   font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
+  font-weight: 300;
 }
 
+hr {
+  border-top: 4px solid#7d97ad ;
+}
+
+h1 {
+  color: #2d3c49;
+}
+
+h2 {
+  font-weight: 300;
+}
+h3 {
+  color: #2d3c49;
+  font-weight: 400;
+}
+.container {
+  margin:  auto;
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+.project-link {
+  color: #666756;
+  font-size: 12px;
+}
+
+.col-md-4 {
+  text-align: center;
+}
